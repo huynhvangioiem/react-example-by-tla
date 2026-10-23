@@ -2,6 +2,8 @@
 
 An interactive learning platform for React hooks, concepts, and best practices. Built with React 19, TypeScript, and Vite, featuring a modern UI powered by TailwindCSS.
 
+> Built April–December 2025 while learning React 19 in depth. Commits from 2026 only tidy the README, fix lint errors and set up the GitHub Pages deploy.
+
 **Live Demo:** [https://huynhvangioiem.github.io/react-example-by-tla/](https://huynhvangioiem.github.io/react-example-by-tla/)
 
 ## Project Overview
