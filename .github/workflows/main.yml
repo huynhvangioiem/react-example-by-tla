@@ -39,6 +39,9 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build
+      - name: Serve the app for deep links
+        # GitHub Pages has no SPA fallback, so a refresh on /hello-react would 404 without this
+        run: cp dist/index.html dist/404.html
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
