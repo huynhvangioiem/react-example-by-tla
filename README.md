@@ -55,7 +55,7 @@ Each example includes:
 
 ```bash
 git clone https://github.com/huynhvangioiem/react-example-by-tla.git
-cd reactjs-example
+cd react-example-by-tla
 ```
 
 2. Install dependencies:
@@ -75,7 +75,7 @@ npm run dev
 ## Project Structure
 
 ```
-reactjs-example/
+react-example-by-tla/
 ├── src/
 │   ├── components/
 │   │   ├── examples/      # Example implementations (17 categories)
@@ -94,7 +94,6 @@ reactjs-example/
 ├── index.html             # HTML entry point
 ├── vite.config.ts         # Vite configuration
 ├── tsconfig.json          # TypeScript configuration
-├── tailwind.config.ts     # TailwindCSS configuration
 ├── components.json        # UI components configuration
 └── package.json           # Project dependencies and scripts
 ```
@@ -139,7 +138,7 @@ Feel free to contribute to this project by:
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+No license has been added yet; the code is shared for reading and learning.
 
 ## Acknowledgments
 
