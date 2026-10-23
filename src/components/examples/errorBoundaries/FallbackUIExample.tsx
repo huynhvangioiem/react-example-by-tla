@@ -245,7 +245,10 @@ const FallbackUIExample: React.FC = () => {
                                     value={selectedFallback}
                                     onChange={(e) =>
                                         setSelectedFallback(
-                                            e.target.value as any
+                                            e.target.value as
+                                                | "minimal"
+                                                | "detailed"
+                                                | "interactive"
                                         )
                                     }
                                     className="w-full border border-gray-300 rounded-lg px-3 py-2"

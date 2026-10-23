@@ -96,13 +96,13 @@ class ErrorLogger {
         error: string;
         component: string;
         userId?: string;
-        context: any;
+        context: Record<string, unknown>;
     }> = [];
 
     static logError(
         error: Error,
         errorInfo: React.ErrorInfo,
-        context: any = {}
+        context: { userId?: string; [key: string]: unknown } = {}
     ) {
         const errorReport = {
             id: Math.random().toString(36).substr(2, 9),
